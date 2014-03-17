@@ -28,6 +28,7 @@ jQuery(function($) {
             });
 
             // scroll to specific id when click on menu
+            /*
             $('.templatemo-top-menu .navbar-nav a').click(function(e){
                 e.preventDefault();
                 var linkId = $(this).attr('href');
@@ -37,7 +38,7 @@ jQuery(function($) {
                 }
                 $(this).blur();
                 return false;
-            });
+            });*/
 
             // to stick navbar on top
             $('.templatemo-top-menu ').stickUp();
